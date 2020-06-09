@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE172F45249049D200D24AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE172F44249049D200D24AB6 /* AppDelegate.swift */; };
+		CE172F47249049D200D24AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE172F46249049D200D24AB6 /* SceneDelegate.swift */; };
+		CE172F49249049D200D24AB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE172F48249049D200D24AB6 /* ViewController.swift */; };
+		CE172F4C249049D200D24AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE172F4A249049D200D24AB6 /* Main.storyboard */; };
+		CE172F4E249049D500D24AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE172F4D249049D500D24AB6 /* Assets.xcassets */; };
+		CE172F51249049D500D24AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE172F4F249049D500D24AB6 /* LaunchScreen.storyboard */; };
+		CE172F5C249049D500D24AB6 /* zedpayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE172F5B249049D500D24AB6 /* zedpayTests.swift */; };
+		CE172F67249049D500D24AB6 /* zedpayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE172F66249049D500D24AB6 /* zedpayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE172F58249049D500D24AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE172F39249049D200D24AB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE172F40249049D200D24AB6;
+			remoteInfo = zedpay;
+		};
+		CE172F63249049D500D24AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE172F39249049D200D24AB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE172F40249049D200D24AB6;
+			remoteInfo = zedpay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE172F41249049D200D24AB6 /* zedpay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zedpay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE172F44249049D200D24AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE172F46249049D200D24AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE172F48249049D200D24AB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE172F4B249049D200D24AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE172F4D249049D500D24AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE172F50249049D500D24AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE172F52249049D500D24AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE172F57249049D500D24AB6 /* zedpayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zedpayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE172F5B249049D500D24AB6 /* zedpayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zedpayTests.swift; sourceTree = "<group>"; };
+		CE172F5D249049D500D24AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE172F62249049D500D24AB6 /* zedpayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zedpayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE172F66249049D500D24AB6 /* zedpayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zedpayUITests.swift; sourceTree = "<group>"; };
+		CE172F68249049D500D24AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE172F3E249049D200D24AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE172F54249049D500D24AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE172F5F249049D500D24AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE172F38249049D200D24AB6 = {
+			isa = PBXGroup;
+			children = (
+				CE172F43249049D200D24AB6 /* zedpay */,
+				CE172F5A249049D500D24AB6 /* zedpayTests */,
+				CE172F65249049D500D24AB6 /* zedpayUITests */,
+				CE172F42249049D200D24AB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE172F42249049D200D24AB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE172F41249049D200D24AB6 /* zedpay.app */,
+				CE172F57249049D500D24AB6 /* zedpayTests.xctest */,
+				CE172F62249049D500D24AB6 /* zedpayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE172F43249049D200D24AB6 /* zedpay */ = {
+			isa = PBXGroup;
+			children = (
+				CE172F44249049D200D24AB6 /* AppDelegate.swift */,
+				CE172F46249049D200D24AB6 /* SceneDelegate.swift */,
+				CE172F48249049D200D24AB6 /* ViewController.swift */,
+				CE172F4A249049D200D24AB6 /* Main.storyboard */,
+				CE172F4D249049D500D24AB6 /* Assets.xcassets */,
+				CE172F4F249049D500D24AB6 /* LaunchScreen.storyboard */,
+				CE172F52249049D500D24AB6 /* Info.plist */,
+			);
+			path = zedpay;
+			sourceTree = "<group>";
+		};
+		CE172F5A249049D500D24AB6 /* zedpayTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE172F5B249049D500D24AB6 /* zedpayTests.swift */,
+				CE172F5D249049D500D24AB6 /* Info.plist */,
+			);
+			path = zedpayTests;
+			sourceTree = "<group>";
+		};
+		CE172F65249049D500D24AB6 /* zedpayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE172F66249049D500D24AB6 /* zedpayUITests.swift */,
+				CE172F68249049D500D24AB6 /* Info.plist */,
+			);
+			path = zedpayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE172F40249049D200D24AB6 /* zedpay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE172F6B249049D500D24AB6 /* Build configuration list for PBXNativeTarget "zedpay" */;
+			buildPhases = (
+				CE172F3D249049D200D24AB6 /* Sources */,
+				CE172F3E249049D200D24AB6 /* Frameworks */,
+				CE172F3F249049D200D24AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zedpay;
+			productName = zedpay;
+			productReference = CE172F41249049D200D24AB6 /* zedpay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE172F56249049D500D24AB6 /* zedpayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE172F6E249049D500D24AB6 /* Build configuration list for PBXNativeTarget "zedpayTests" */;
+			buildPhases = (
+				CE172F53249049D500D24AB6 /* Sources */,
+				CE172F54249049D500D24AB6 /* Frameworks */,
+				CE172F55249049D500D24AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE172F59249049D500D24AB6 /* PBXTargetDependency */,
+			);
+			name = zedpayTests;
+			productName = zedpayTests;
+			productReference = CE172F57249049D500D24AB6 /* zedpayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE172F61249049D500D24AB6 /* zedpayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE172F71249049D500D24AB6 /* Build configuration list for PBXNativeTarget "zedpayUITests" */;
+			buildPhases = (
+				CE172F5E249049D500D24AB6 /* Sources */,
+				CE172F5F249049D500D24AB6 /* Frameworks */,
+				CE172F60249049D500D24AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE172F64249049D500D24AB6 /* PBXTargetDependency */,
+			);
+			name = zedpayUITests;
+			productName = zedpayUITests;
+			productReference = CE172F62249049D500D24AB6 /* zedpayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE172F39249049D200D24AB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Krys Ngabi";
+				TargetAttributes = {
+					CE172F40249049D200D24AB6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					CE172F56249049D500D24AB6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CE172F40249049D200D24AB6;
+					};
+					CE172F61249049D500D24AB6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CE172F40249049D200D24AB6;
+					};
+				};
+			};
+			buildConfigurationList = CE172F3C249049D200D24AB6 /* Build configuration list for PBXProject "zedpay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE172F38249049D200D24AB6;
+			productRefGroup = CE172F42249049D200D24AB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE172F40249049D200D24AB6 /* zedpay */,
+				CE172F56249049D500D24AB6 /* zedpayTests */,
+				CE172F61249049D500D24AB6 /* zedpayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE172F3F249049D200D24AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE172F51249049D500D24AB6 /* LaunchScreen.storyboard in Resources */,
+				CE172F4E249049D500D24AB6 /* Assets.xcassets in Resources */,
+				CE172F4C249049D200D24AB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE172F55249049D500D24AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE172F60249049D500D24AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE172F3D249049D200D24AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE172F49249049D200D24AB6 /* ViewController.swift in Sources */,
+				CE172F45249049D200D24AB6 /* AppDelegate.swift in Sources */,
+				CE172F47249049D200D24AB6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE172F53249049D500D24AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE172F5C249049D500D24AB6 /* zedpayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE172F5E249049D500D24AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE172F67249049D500D24AB6 /* zedpayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE172F59249049D500D24AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE172F40249049D200D24AB6 /* zedpay */;
+			targetProxy = CE172F58249049D500D24AB6 /* PBXContainerItemProxy */;
+		};
+		CE172F64249049D500D24AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE172F40249049D200D24AB6 /* zedpay */;
+			targetProxy = CE172F63249049D500D24AB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE172F4A249049D200D24AB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE172F4B249049D200D24AB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE172F4F249049D500D24AB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE172F50249049D500D24AB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE172F69249049D500D24AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE172F6A249049D500D24AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE172F6C249049D500D24AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zedpay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartit243.zedpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE172F6D249049D500D24AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zedpay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartit243.zedpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE172F6F249049D500D24AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zedpayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartit243.zedpayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zedpay.app/zedpay";
+			};
+			name = Debug;
+		};
+		CE172F70249049D500D24AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zedpayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartit243.zedpayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zedpay.app/zedpay";
+			};
+			name = Release;
+		};
+		CE172F72249049D500D24AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zedpayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartit243.zedpayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zedpay;
+			};
+			name = Debug;
+		};
+		CE172F73249049D500D24AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zedpayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartit243.zedpayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zedpay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE172F3C249049D200D24AB6 /* Build configuration list for PBXProject "zedpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE172F69249049D500D24AB6 /* Debug */,
+				CE172F6A249049D500D24AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE172F6B249049D500D24AB6 /* Build configuration list for PBXNativeTarget "zedpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE172F6C249049D500D24AB6 /* Debug */,
+				CE172F6D249049D500D24AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE172F6E249049D500D24AB6 /* Build configuration list for PBXNativeTarget "zedpayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE172F6F249049D500D24AB6 /* Debug */,
+				CE172F70249049D500D24AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE172F71249049D500D24AB6 /* Build configuration list for PBXNativeTarget "zedpayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE172F72249049D500D24AB6 /* Debug */,
+				CE172F73249049D500D24AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE172F39249049D200D24AB6 /* Project object */;
+}
