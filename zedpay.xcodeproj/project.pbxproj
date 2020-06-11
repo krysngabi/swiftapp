@@ -15,6 +15,7 @@
 		CE172F51249049D500D24AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE172F4F249049D500D24AB6 /* LaunchScreen.storyboard */; };
 		CE172F5C249049D500D24AB6 /* zedpayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE172F5B249049D500D24AB6 /* zedpayTests.swift */; };
 		CE172F67249049D500D24AB6 /* zedpayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE172F66249049D500D24AB6 /* zedpayUITests.swift */; };
+		CEDF46B22491B3F80054DFDC /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF46B12491B3F80054DFDC /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE172F62249049D500D24AB6 /* zedpayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zedpayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE172F66249049D500D24AB6 /* zedpayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zedpayUITests.swift; sourceTree = "<group>"; };
 		CE172F68249049D500D24AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDF46B12491B3F80054DFDC /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				CE172F44249049D200D24AB6 /* AppDelegate.swift */,
 				CE172F46249049D200D24AB6 /* SceneDelegate.swift */,
 				CE172F48249049D200D24AB6 /* ViewController.swift */,
+				CEDF46B12491B3F80054DFDC /* DefinitionViewController.swift */,
 				CE172F4A249049D200D24AB6 /* Main.storyboard */,
 				CE172F4D249049D500D24AB6 /* Assets.xcassets */,
 				CE172F4F249049D500D24AB6 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE172F49249049D200D24AB6 /* ViewController.swift in Sources */,
+				CEDF46B22491B3F80054DFDC /* DefinitionViewController.swift in Sources */,
 				CE172F45249049D200D24AB6 /* AppDelegate.swift in Sources */,
 				CE172F47249049D200D24AB6 /* SceneDelegate.swift in Sources */,
 			);
