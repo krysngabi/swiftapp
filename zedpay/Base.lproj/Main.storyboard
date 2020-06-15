@@ -99,12 +99,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lovely church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXO-Rt-Cat">
+                                <rect key="frame" x="85" y="518" width="244" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="g1L-Mm-bZB" firstAttribute="centerX" secondItem="w6X-KN-fyD" secondAttribute="centerX" id="9i0-5a-fe6"/>
+                            <constraint firstItem="BXO-Rt-Cat" firstAttribute="top" secondItem="WKM-u3-q5M" secondAttribute="bottom" constant="55.5" id="Bdh-j7-CFv"/>
                             <constraint firstItem="WKM-u3-q5M" firstAttribute="centerX" secondItem="w6X-KN-fyD" secondAttribute="centerX" id="LUU-I2-Q8W"/>
                             <constraint firstItem="WKM-u3-q5M" firstAttribute="firstBaseline" secondItem="g1L-Mm-bZB" secondAttribute="baseline" constant="150" id="Zet-xz-bCY"/>
+                            <constraint firstItem="BXO-Rt-Cat" firstAttribute="centerX" secondItem="w6X-KN-fyD" secondAttribute="centerX" id="vMl-W0-OlX"/>
                             <constraint firstItem="g1L-Mm-bZB" firstAttribute="top" secondItem="Ld2-HB-7kk" secondAttribute="top" constant="65" id="yZ3-Th-0KT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ld2-HB-7kk"/>
@@ -113,6 +121,7 @@
                     <connections>
                         <outlet property="definitionLbl" destination="WKM-u3-q5M" id="ynx-Lg-8cs"/>
                         <outlet property="emojiLbl" destination="g1L-Mm-bZB" id="4g2-q5-otm"/>
+                        <outlet property="lblcategorie" destination="BXO-Rt-Cat" id="5Pb-IS-WU3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZs-pn-gxf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

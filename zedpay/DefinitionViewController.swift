@@ -12,14 +12,20 @@ class DefinitionViewController: UIViewController {
 
     @IBOutlet weak var emojiLbl: UILabel!
     @IBOutlet weak var definitionLbl: UILabel!
-    var emoji = "NO EMOJI"
+    @IBOutlet weak var lblcategorie: UILabel!
+    @IBOutlet weak var lblYear: UILabel!
+    var emoji = EmojiClass()
     override func viewDidLoad() {
         super.viewDidLoad()
-        emojiLbl.text = emoji
+        emojiLbl.text = emoji.stringEmoji
+        definitionLbl.text = emoji.definition
+        lblcategorie.text = emoji.categorie
         
-        if emoji=="🙇🏾‍♂️" {
-            definitionLbl.text = "Sad baby"
-        }
+//        if emoji=="🙇🏾‍♂️" {
+//            definitionLbl.text = "Sad baby"
+//            lblcategorie.text = "Child"
+//            lblYear.text = " 2009"
+//        }
 
         // Do any additional setup after loading the view.
     }

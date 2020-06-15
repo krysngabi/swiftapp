@@ -16,9 +16,13 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     var compteur=0
     var age : Int = 27
     var sunny : Bool = true
-    var emojis = ["🐥","🙇🏾‍♂️","🤮","💪🏾","🧓🏻"]
-    
+    var emojis : [EmojiClass] = []
     @IBAction func btnValider(_ sender: Any) {
+        
+        
+         performSegue(withIdentifier: "moveSegue", sender: "⛱")
+        
+       
         //adding console output
         
         //        print("Button clicked...eloko")
@@ -39,6 +43,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after  loading the view.
+        emojis = makeEmojiArray()
+        
         lbl1.text="Ambra Jordan est Magnifique❣️"
         tbview.dataSource=self
         tbview.delegate=self
@@ -50,8 +56,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell=UITableViewCell()
-        cell.textLabel?.text=emojis[indexPath.row]
-    
+        //cell.textLabel?.text=emojis[indexPath.row]
+        cell.textLabel?.text=emojis[indexPath.row].stringEmoji
         
         return cell
     }
@@ -67,8 +73,32 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let defVC = segue.destination as! DefinitionViewController
         
-        defVC.emoji = sender as! String
+        defVC.emoji = sender as! EmojiClass
         
+    }
+    func makeEmojiArray ()-> [EmojiClass]{
+        
+        
+        let  emoji1 = EmojiClass()
+        
+        emoji1.stringEmoji = "🐥"
+        emoji1.categorie = "Bird"
+        emoji1.definition = "A smiling Bird"
+        
+        let  emoji2 = EmojiClass()
+               
+       emoji2.stringEmoji = "🙇🏾‍♂️"
+       emoji2.categorie = "Boy"
+       emoji2.definition = "A sad baby"
+        
+        let  emoji3 = EmojiClass()
+                
+        emoji3.stringEmoji = "🤮"
+        emoji3.categorie = "Grrr"
+        emoji3.definition = "Throwing out"
+        
+        return [emoji1,emoji2,emoji3]
+         
     }
     
     
